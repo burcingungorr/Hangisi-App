@@ -1,97 +1,82 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 📱 Hangisi? – Karar Verme ve Topluluk Oylama Uygulaması
 
-# Getting Started
+**Hangisi?**, kararsız kaldığınız konuları topluluğa sorabileceğiniz, oylama veya yorum sistemi ile fikir alabileceğiniz sosyal bir mobil uygulamadır.  
+Kullanıcılar ister anonim ister açık şekilde sorular sorabilir, topluluktan gelen oylar ve yorumlar ile karar sürecini kolaylaştırabilir.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 📱 Temel Özellikler
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- 📝 **Soru Oluşturma**  
+  - Karar sorusu ekleme  
+  - Kategori seçimi (🍽 Yemek, 👗 Moda, 🧍 Sosyal, ❤ İlişki, 💼 Kariyer, 🏠 Günlük Yaşam)  
+  - Seçenekli veya seçeneksiz soru oluşturma  
+  - Anonim soru paylaşma desteği  
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- 🔘 **Oylama Sistemi**  
+  - Seçenekli sorularda topluluk oy kullanabilir  
+  - Oylama sonuçlarını anlık görebilme  
 
-```sh
-# Using npm
-npm start
+- 💬 **Yorumla Tercih**  
+  - Seçeneksiz sorularda topluluk yorum yazarak öneride bulunur  
+  - Yorumlar beğenildikçe rozet kazanma imkânı  
 
-# OR using Yarn
-yarn start
-```
+- 🧠 **Karar Verdim Butonu**  
+  - Kullanıcı, süreci tamamladığını bildirerek sorusunu kapatabilir  
+  - Karar verilen sorular "Karar Günlüğü"ne eklenir  
 
-## Step 2: Build and run your app
+- 📖 **Karar Günlüğü**  
+  - Kullanıcının geçmiş sorularını ve kararlarını görüntüleme  
+  - Kişisel farkındalık ve gelişim takibi  
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+- 🕵 **Gizli Oylama (Anonim Soru)**  
+  - Soruyu kimin sorduğu gizlenir  
+  - Topluluk oy veya yorum ile katkıda bulunur  
 
-### Android
+- 🏅 **Rozet Sistemi**  
+  - 🗳 **Topluluk Katılımcısı**: Oy kullanarak ve yorum yaparak katkı sunanlara  
+  - 🧠 **Yorum Ustası**: Çok beğeni alan veya sık yorum yapanlara  
+  - 🏆 **Zor Karar**: Haftanın en çok oy alan sorusunun sahibine  
+  - 🧭 **Karar Sahibi**: “Karar Verdim” butonunu kullananlara  
+  - 🕵 **Gizli Kararcı**: Anonim olarak soru paylaşanlara  
 
-```sh
-# Using npm
-npm run android
+---
 
-# OR using Yarn
-yarn android
-```
+## 🛠️ Kullanılan Teknolojiler
 
-### iOS
+- **React Native** – Mobil uygulama geliştirme  
+- **Firebase** – Firestore, Authentication, Storage  
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+---
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+## 🎯 Amaç
 
-```sh
-bundle install
-```
+Kararsızlık yaşayan kullanıcıların topluluk desteği ile daha kolay ve sağlıklı kararlar vermesini sağlamak, sosyal etkileşimi ve yardımlaşmayı artırmak.
 
-Then, and every time you update your native dependencies, run:
+---
 
-```sh
-bundle exec pod install
-```
+## 📸 Uygulama Görselleri
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+<div align="center"> 
+  <img src="<img width="340" height="707" alt="Ekran görüntüsü 2025-07-28 154252" src="https://github.com/user-attachments/assets/bfdaa673-d3e7-4721-855e-50b3795f2bfc" />
+" width="130" />
+  <img src="<img width="343" height="704" alt="Ekran görüntüsü 2025-07-28 154259" src="https://github.com/user-attachments/assets/3a090ec5-11ab-47cc-b8a6-579a8ecf0cc1" />
+" width="130" />
+  <img src="<img width="348" height="705" alt="Ekran görüntüsü 2025-07-28 154645" src="https://github.com/user-attachments/assets/426090a0-2bb6-47e6-b00d-2d22e32bbdc3" />
+" width="130" />
+  <img src="<img width="340" height="702" alt="Ekran görüntüsü 2025-07-28 155136" src="https://github.com/user-attachments/assets/4f91f291-2d03-4d73-a20d-7d6c9c577266" />
+" width="130" />
+</div>
 
-```sh
-# Using npm
-npm run ios
+<div align="center">
+  <img src="<img width="343" height="715" alt="Ekran görüntüsü 2025-07-28 155200" src="https://github.com/user-attachments/assets/34966ac8-b80f-4f2d-b5e3-2408eda2ecbd" />
+" width="130" />
+  <img src="<img width="333" height="705" alt="Ekran görüntüsü 2025-07-28 155215" src="https://github.com/user-attachments/assets/446f2f23-3184-4bcf-82da-0a3d7bfe6eb9" />
+" width="130" />
+  <img src="<img width="347" height="709" alt="Ekran görüntüsü 2025-07-28 155230" src="https://github.com/user-attachments/assets/48ea1143-74c9-41ac-89b7-627929e5f94d" />
+" width="130" />
+  <img src="<img width="353" height="720" alt="Ekran görüntüsü 2025-07-28 155417" src="https://github.com/user-attachments/assets/1e1633b4-9726-4812-8a86-9fc2e1f451ec" />
+" width="130" />
+</div>
 
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
