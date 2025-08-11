@@ -34,11 +34,7 @@ Kullanıcılar ister anonim ister açık şekilde sorular sorabilir, topluluktan
   - Topluluk oy veya yorum ile katkıda bulunur  
 
 - 🏅 **Rozet Sistemi**  
-  - 🗳 **Topluluk Katılımcısı**: Oy kullanarak ve yorum yaparak katkı sunanlara  
-  - 🧠 **Yorum Ustası**: Çok beğeni alan veya sık yorum yapanlara  
-  - 🏆 **Zor Karar**: Haftanın en çok oy alan sorusunun sahibine  
-  - 🧭 **Karar Sahibi**: “Karar Verdim” butonunu kullananlara  
-  - 🕵 **Gizli Kararcı**: Anonim olarak soru paylaşanlara  
+  
 
 ---
 
