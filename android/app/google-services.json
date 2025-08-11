@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "141241119972",
+    "project_id": "hangisi-4d666",
+    "storage_bucket": "hangisi-4d666.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141241119972:android:ab03bcb47d59d27d4068f1",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBijKikL4YK6JqKhPa5qsmDs8qIhCjXkPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
